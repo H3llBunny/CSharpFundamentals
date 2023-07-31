@@ -1,0 +1,38 @@
+D:\VS projects\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.deps.json
+D:\VS projects\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.json
+D:\VS projects\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.dev.json
+D:\VS projects\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.dll
+D:\VS projects\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csprojAssemblyReference.cache
+D:\VS projects\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csproj.CoreCompileInputs.cache
+D:\VS projects\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfoInputs.cache
+D:\VS projects\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfo.cs
+D:\VS projects\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.pdb
+D:\VS projects\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.dll
+D:\VS projects\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.pdb
+D:\basic Web\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.deps.json
+D:\basic Web\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.json
+D:\basic Web\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.dev.json
+D:\basic Web\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.dll
+D:\basic Web\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.pdb
+D:\basic Web\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csprojAssemblyReference.cache
+D:\basic Web\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csproj.CoreCompileInputs.cache
+D:\basic Web\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfoInputs.cache
+D:\basic Web\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfo.cs
+D:\basic Web\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.dll
+D:\basic Web\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.pdb
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.deps.json
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.json
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.dev.json
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.dll
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.pdb
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csproj.AssemblyReference.cache
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfoInputs.cache
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfo.cs
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csproj.CoreCompileInputs.cache
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.dll
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.pdb
+D:\Pogramming shit\blago\01-fund\10. CSharp-Fundamentals-Web-Project\Skeleton\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.genruntimeconfig.cache
