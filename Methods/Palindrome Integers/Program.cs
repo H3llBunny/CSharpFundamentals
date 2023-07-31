@@ -23,6 +23,7 @@ namespace Palindrome_Integers
                 }
             }
         }
+
         static bool ReturnIsNumberPalindrome(string input)
         {
             int number = int.Parse(input);

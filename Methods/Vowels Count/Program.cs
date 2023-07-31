@@ -12,6 +12,7 @@ namespace VowelsCount
 
             Console.WriteLine(CheckVowelsCount(sentence));
         }
+
         public static string CheckVowelsCount (string sentence)
         {
             int total = 0;

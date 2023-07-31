@@ -11,6 +11,7 @@ namespace TopNumber
 
             PrintTopNumbersUpTo(number);
         }
+
         private static void PrintTopNumbersUpTo(int number)
         {
             for (int i = 1; i <= number; i++)

@@ -10,6 +10,7 @@ namespace NxN_Matrix
             int n = int.Parse(Console.ReadLine());
             Matrix(n);
         }
+
         public static void Matrix(int n)
         {
             int[] matrix = new int[n];

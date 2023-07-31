@@ -13,6 +13,7 @@ namespace CharactersInRange
             char secondChar = char.Parse(Console.ReadLine());
             PrintBetweenChars(firstChar, secondChar);
         }
+
         private static void PrintBetweenChars(char firstChar, char secondChar)
         {
             int CharStart = Math.Min(firstChar, secondChar);

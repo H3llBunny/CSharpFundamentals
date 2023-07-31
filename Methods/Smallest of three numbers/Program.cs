@@ -15,13 +15,13 @@ namespace SmallestOfThreeNumbers
 
             Console.WriteLine(PrintSmallestNum(numbers));
         }
+
         public static int PrintSmallestNum(int[] numbers)
         {
             int smallestNum = Math.Min(numbers[0], numbers[1]);
 
             if (smallestNum < numbers[2])
             {
-    
                 return smallestNum;
             }
             else

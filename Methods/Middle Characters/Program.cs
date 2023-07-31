@@ -11,6 +11,7 @@ namespace MiddleCharacters
 
             MiddleChar(str);
         }
+
         public static void MiddleChar(string str)
         {
             if (str.Length % 2 == 0)
