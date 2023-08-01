@@ -51,7 +51,7 @@ namespace Orders
                 }
             }
 
-            foreach(var product in products)
+            foreach (var product in products)
             {
                 Console.WriteLine($"{product.Name} -> {(product.Price * product.Quantity):f2}");
             }

@@ -12,7 +12,7 @@ namespace Students
             public string SecondName { get; set; }
             public double Grade { get; set; }
 
-            public Student (string firstName, string secondName, double grade)
+            public Student(string firstName, string secondName, double grade)
             {
                 FirstName = firstName;
                 SecondName = secondName;

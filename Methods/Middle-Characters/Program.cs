@@ -16,7 +16,7 @@ namespace MiddleCharacters
         {
             if (str.Length % 2 == 0)
             {
-              Console.WriteLine(str.Substring((str.Length / 2) - 1, 2));
+                Console.WriteLine(str.Substring((str.Length / 2) - 1, 2));
             }
             else
             {

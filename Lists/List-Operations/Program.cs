@@ -78,6 +78,7 @@ namespace ListOperations
                     }
                 }
             }
+
             Console.WriteLine(string.Join(' ', list));
         }
     }

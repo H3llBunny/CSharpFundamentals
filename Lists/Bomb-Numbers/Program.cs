@@ -32,7 +32,7 @@ namespace BombNumbers
 
                     for (int j = 1; j <= bombPower; j++)
                     {
-                        if(i + j > numbers.Count - 1)
+                        if (i + j > numbers.Count - 1)
                         {
                             break;
                         }

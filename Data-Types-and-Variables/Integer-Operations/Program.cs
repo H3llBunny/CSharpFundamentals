@@ -12,6 +12,7 @@ namespace Integer_Operations
             int fourthNumber = int.Parse(Console.ReadLine());
 
             int result = ((firstNumber + secondNumber) / thirdNumber) * fourthNumber;
+
             Console.WriteLine(result);
         }
     }

@@ -37,7 +37,7 @@ namespace TeamworkProjects
 
                 bool isCreatorExist = allTeam.Any(x => x.CreatorName == currentCreator);
 
-                if(isTeamNameExist == false && isCreatorExist == false)
+                if (isTeamNameExist == false && isCreatorExist == false)
                 {
                     Team currentTeam = new Team(currentTeamName, currentCreator);
 
@@ -59,7 +59,7 @@ namespace TeamworkProjects
             {
                 string fensForTeam = Console.ReadLine();
 
-                if(fensForTeam == "end of assignment")
+                if (fensForTeam == "end of assignment")
                 {
                     break;
                 }
@@ -82,7 +82,7 @@ namespace TeamworkProjects
                 {
                     Console.WriteLine("Team {0} does not exist!", ofFensTeam);
                 }
-                else if(isAlreadyFen || isCreatorCheating)
+                else if (isAlreadyFen || isCreatorCheating)
                 {
                     Console.WriteLine("Member {0} cannot join team {1}!", fen, ofFensTeam);
                 }
@@ -93,7 +93,7 @@ namespace TeamworkProjects
 
             List<Team> notValidTeam = allTeam.Where(x => x.Members.Count == 0).OrderBy(x => x.TeamName).ToList();
 
-            foreach(var team in teamWithMembers)
+            foreach (var team in teamWithMembers)
             {
                 Console.WriteLine(team.TeamName);
                 Console.WriteLine("- " + team.CreatorName);
@@ -103,7 +103,7 @@ namespace TeamworkProjects
 
             Console.WriteLine("Teams to disband:");
 
-            foreach(var team in notValidTeam)
+            foreach (var team in notValidTeam)
             {
                 Console.WriteLine(team.TeamName);
             }

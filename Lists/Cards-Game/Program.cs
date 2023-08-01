@@ -11,7 +11,7 @@ namespace CardsGame
             List<int> firstDeck = Console.ReadLine().Split().Select(int.Parse).ToList();
             List<int> secondDeck = Console.ReadLine().Split().Select(int.Parse).ToList();
 
-            while(firstDeck.Count > 0 && secondDeck.Count > 0)
+            while (firstDeck.Count > 0 && secondDeck.Count > 0)
             {
                 if (firstDeck[0] == secondDeck[0])
                 {
@@ -34,11 +34,11 @@ namespace CardsGame
                 }
             }
 
-            if(firstDeck.Count > secondDeck.Count)
+            if (firstDeck.Count > secondDeck.Count)
             {
                 Console.WriteLine("First player wins! Sum: " + firstDeck.Sum());
             }
-            else if(firstDeck.Count < secondDeck.Count)
+            else if (firstDeck.Count < secondDeck.Count)
             {
                 Console.WriteLine("Second player wins! Sum: " + secondDeck.Sum());
             }

@@ -27,7 +27,7 @@ namespace Articles2_0
         static void Main(string[] args)
         {
             int articlesNum = int.Parse(Console.ReadLine());
-            List <Article> articles = new List<Article>();
+            List<Article> articles = new List<Article>();
             string[] input;
 
             for (int i = 0; i < articlesNum; i++)

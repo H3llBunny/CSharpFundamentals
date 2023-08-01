@@ -18,7 +18,7 @@ namespace KaminoFactory
             string command = Console.ReadLine();
             int sampleNum = 0;
 
-            while(command != "Clone them!")
+            while (command != "Clone them!")
             {
                 int[] currentSample = command.Split("!".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 
@@ -46,7 +46,7 @@ namespace KaminoFactory
                         currentSequenceLength = 0;
                     }
 
-                    if(currentSequenceLength > previouseSequenceLength)
+                    if (currentSequenceLength > previouseSequenceLength)
                     {
                         currentLongestSequence = currentSequenceLength;
                         leftmostIndexInCurrentArray = i - currentSequenceLength + 1;
@@ -72,7 +72,7 @@ namespace KaminoFactory
                         bestSampleNumber = sampleNum;
                     }
 
-                    else if(leftmostIndex == leftmostIndexInCurrentArray)
+                    else if (leftmostIndex == leftmostIndexInCurrentArray)
                     {
                         if (currentSampleSum > bestSampleSum)
                         {
@@ -88,7 +88,6 @@ namespace KaminoFactory
 
             Console.WriteLine($"Best DNA sample {bestSampleNumber} with sum: {bestSampleSum}.");
             Console.WriteLine(string.Join(" ", bestSample));
-
         }
     }
 }

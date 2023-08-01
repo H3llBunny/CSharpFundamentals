@@ -25,7 +25,7 @@ namespace AMinerTask
                 }
             }
 
-            foreach(var resource in resources)
+            foreach (var resource in resources)
             {
                 Console.WriteLine($"{resource.Key} -> {resource.Value}");
             }

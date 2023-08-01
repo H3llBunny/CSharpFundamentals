@@ -12,7 +12,6 @@ namespace FactorialDivision
             decimal result = factorial(firstNum, secondNum);
 
             Console.WriteLine($"{result:f2}");
-            
         }
 
         public static decimal factorial(decimal firstNum, decimal secondNum)

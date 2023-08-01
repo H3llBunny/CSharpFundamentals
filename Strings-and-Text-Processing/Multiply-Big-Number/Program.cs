@@ -11,7 +11,7 @@ namespace MultiplyBigNumber
         {
             char[] numbers = Console.ReadLine().TrimStart('0').ToCharArray();
             int n = int.Parse(Console.ReadLine());
-            
+
             if (n == 0)
             {
                 Console.WriteLine("0");
@@ -29,7 +29,7 @@ namespace MultiplyBigNumber
                 parse /= 10;
             }
 
-            if(parse > 0)
+            if (parse > 0)
             {
                 Console.WriteLine($"{parse}{string.Join("", newNum)}");
             }

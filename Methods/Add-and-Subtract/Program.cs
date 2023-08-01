@@ -23,5 +23,5 @@ namespace AddAndSubtract
         {
             return sum - num3;
         }
-    }   
+    }
 }

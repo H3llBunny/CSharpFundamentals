@@ -34,5 +34,5 @@ namespace ChangeLists
 
             Console.WriteLine(string.Join(' ', list));
         }
-    }   
+    }
 }

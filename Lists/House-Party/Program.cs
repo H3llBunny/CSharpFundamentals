@@ -28,7 +28,7 @@ namespace HouseParty
                     {
                         guestList.Add(name);
                     }
-                }       
+                }
                 else
                 {
                     string name = command.Split()[0].ToString();

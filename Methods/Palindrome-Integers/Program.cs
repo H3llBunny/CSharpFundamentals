@@ -29,7 +29,7 @@ namespace Palindrome_Integers
             int number = int.Parse(input);
             bool result = false;
 
-            if(number >=0 && number <= 9)
+            if (number >= 0 && number <= 9)
             {
                 result = true;
             }
@@ -41,7 +41,7 @@ namespace Palindrome_Integers
                     {
                         result = true;
                     }
-                    else if(input[i] != input[input.Length - 1 - i])
+                    else if (input[i] != input[input.Length - 1 - i])
                     {
                         result = false;
 

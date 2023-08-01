@@ -37,27 +37,27 @@ namespace LadyBugs
                 int countOfMoves = int.Parse(rules[2]);
                 int newPostition = 0;
 
-                if(countOfMoves < 0)
+                if (countOfMoves < 0)
                 {
-                    if(direction == "left")
+                    if (direction == "left")
                     {
                         direction = "right";
                         countOfMoves = Math.Abs(countOfMoves);
                     }
-                    else if(direction == "right")
+                    else if (direction == "right")
                     {
                         direction = "left";
                         countOfMoves = Math.Abs(countOfMoves);
                     }
                 }
                 //check if the initial position is out of array or if it has NO bugs
-                if(initialPosition < 0 || initialPosition > ladyBugField.Length - 1 || ladyBugField[initialPosition] == 0)
+                if (initialPosition < 0 || initialPosition > ladyBugField.Length - 1 || ladyBugField[initialPosition] == 0)
                 {
                     command = Console.ReadLine();
                     continue;
                 }
 
-                if(countOfMoves == 0 && initialPosition >= 0 && initialPosition <= ladyBugField.Length - 1)
+                if (countOfMoves == 0 && initialPosition >= 0 && initialPosition <= ladyBugField.Length - 1)
                 {
                     if (ladyBugField[initialPosition] == 1)
                     {
@@ -71,7 +71,7 @@ namespace LadyBugs
                         newPostition = initialPosition + countOfMoves; // find new positon index
                         ladyBugField[initialPosition] = 0; //in both cases the initial index gets '0'
 
-                        if(newPostition > ladyBugField.Length - 1) //check if new positin index is out of array
+                        if (newPostition > ladyBugField.Length - 1) //check if new positin index is out of array
                         {
                             ladyBugField[initialPosition] = 0; //if it's out, current position gets '0' - LB flies out of the array
                             break;
@@ -93,7 +93,7 @@ namespace LadyBugs
                         newPostition = initialPosition - countOfMoves;
                         ladyBugField[initialPosition] = 0; //in both cases the initial index gets '0'
 
-                        if(newPostition < 0) //if new position is out of array, initial index of LB gets '0'
+                        if (newPostition < 0) //if new position is out of array, initial index of LB gets '0'
                         {
                             ladyBugField[initialPosition] = 0;
                             break;

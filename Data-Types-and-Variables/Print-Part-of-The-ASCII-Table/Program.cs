@@ -12,7 +12,7 @@ namespace PrintPartOfTheASCIITable
 
             for (asciiValue = start; asciiValue <= end; asciiValue++)
             {
-                 Console.Write(" " + Convert.ToChar(asciiValue));
+                Console.Write(" " + Convert.ToChar(asciiValue));
             }
         }
     }

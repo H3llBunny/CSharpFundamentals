@@ -19,10 +19,9 @@ namespace NxN_Matrix
             {
                 matrix[i] = n;
             }
-             
-            for (int i = 1; i <= n; i++)
-                {
 
+            for (int i = 1; i <= n; i++)
+            {
                 foreach (int numbers in matrix)
                 {
                     Console.Write(numbers + " ");

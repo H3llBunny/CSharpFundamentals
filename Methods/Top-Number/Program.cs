@@ -25,9 +25,9 @@ namespace TopNumber
 
         private static bool HasOddDigit(int number)
         {
-            while(number > 0)
+            while (number > 0)
             {
-                if((number % 10) % 2 == 1)
+                if ((number % 10) % 2 == 1)
                 {
                     return true;
                 }
@@ -41,17 +41,17 @@ namespace TopNumber
         {
             int digitSum = 0;
 
-            while(number > 0)
+            while (number > 0)
             {
                 digitSum += number % 10;
                 number /= 10;
             }
 
-            if(digitSum % 8 == 0)
+            if (digitSum % 8 == 0)
             {
                 return true;
             }
-     
+
             return false;
         }
     }

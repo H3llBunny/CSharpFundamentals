@@ -19,11 +19,12 @@ namespace OrderByAge
                 Age = age;
             }
         }
+
         static void Main(string[] args)
         {
             List<Person> people = new List<Person>();
             string input;
-            while((input = Console.ReadLine()) != "End")
+            while ((input = Console.ReadLine()) != "End")
             {
                 string[] person = input.Split(" ");
 
@@ -32,7 +33,7 @@ namespace OrderByAge
 
             people = people.OrderBy(x => x.Age).ToList();
 
-            foreach(Person person in people)
+            foreach (Person person in people)
             {
                 Console.WriteLine(string.Join(Environment.NewLine, person.Name + " with ID: " + person.ID + " is " + person.Age + " years old."));
             }

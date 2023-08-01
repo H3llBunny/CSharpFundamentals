@@ -18,12 +18,12 @@ namespace AnonymousThreat
                     int startIndex = int.Parse(command.Split()[1]);
                     int endIndex = int.Parse(command.Split()[2]);
 
-                    if(startIndex < 0)
+                    if (startIndex < 0)
                     {
                         startIndex = 0;
                     }
 
-                    if(endIndex > arr.Count - 1)
+                    if (endIndex > arr.Count - 1)
                     {
                         endIndex = arr.Count - 1;
                     }
@@ -53,7 +53,7 @@ namespace AnonymousThreat
                         {
                             tmpString += partitionData[(i * partSize) + j];
                         }
-                        if(i == partitions - 1 && reminder != 0)
+                        if (i == partitions - 1 && reminder != 0)
                         {
                             tmpString += partitionData.Substring(partitionData.Length - reminder);
                         }

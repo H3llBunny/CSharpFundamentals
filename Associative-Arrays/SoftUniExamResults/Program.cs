@@ -49,7 +49,7 @@ namespace SoftUni_Exam_Results
                             {
                                 languages[language]++;
                             }
-                            else 
+                            else
                             {
                                 languages.Add(language, 1);
                             }
@@ -88,7 +88,7 @@ namespace SoftUni_Exam_Results
 
             foreach (var student in students.OrderByDescending(x => x.Value.Values.Max()).ThenBy(x => x.Key))
             {
-                if(student.Key != "banned")
+                if (student.Key != "banned")
                 {
                     Console.WriteLine($"{student.Key} | {student.Value.Values.Max()}");
                 }

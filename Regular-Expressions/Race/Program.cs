@@ -54,12 +54,12 @@ namespace Race
                     Console.WriteLine($"1st place: {racer.Key}");
                     counter++;
                 }
-                else if(counter == 1)
+                else if (counter == 1)
                 {
                     Console.WriteLine($"2nd place: {racer.Key}");
                     counter++;
                 }
-                else if(counter == 2)
+                else if (counter == 2)
                 {
                     Console.WriteLine($"3rd place: {racer.Key}");
                     break;

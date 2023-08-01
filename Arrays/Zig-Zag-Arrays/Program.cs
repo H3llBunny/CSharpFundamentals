@@ -14,7 +14,7 @@ namespace ZigZagArrays
             {
                 int[] input = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
-                if(i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     arr[i] = input[0];
                     arr2[i] = input[1];
@@ -28,7 +28,6 @@ namespace ZigZagArrays
 
             Console.WriteLine(string.Join(" ", arr));
             Console.WriteLine(string.Join(" ", arr2));
-
         }
     }
 }

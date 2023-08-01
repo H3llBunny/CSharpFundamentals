@@ -21,7 +21,7 @@ namespace ArrayRotation
                 arr[arr.Length - 1] = temp;
             }
 
-            Console.WriteLine(string.Join(" ",arr));
+            Console.WriteLine(string.Join(" ", arr));
         }
     }
 }

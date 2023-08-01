@@ -16,7 +16,7 @@ namespace ReplaceRepeatingChars
                 char curr = str[i];
                 char next = str[i + 1];
 
-                if(curr == next)
+                if (curr == next)
                 {
                     str.RemoveAt(i);
                     i--;

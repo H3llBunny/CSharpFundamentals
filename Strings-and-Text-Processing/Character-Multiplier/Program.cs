@@ -29,7 +29,7 @@ namespace CharacterMultiplier
                     sum += str[0][j];
                 }
             }
-            else if(str[0].Length < str[1].Length)
+            else if (str[0].Length < str[1].Length)
             {
                 for (int i = 0; i < str[0].Length; i++)
                 {

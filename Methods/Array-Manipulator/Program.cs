@@ -421,6 +421,7 @@ namespace ArrayManipulator
                         return;
                     }
                 }
+
                 Console.WriteLine("[]");
             }
         }

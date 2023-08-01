@@ -44,12 +44,12 @@ namespace VehicleCatalogue
                 {
                     int index = catalogue.FindIndex(x => x.Model == command);
 
-                    Console.WriteLine(string.Join(Environment.NewLine, "Type: " + catalogue[index].Type, "Model: " + catalogue[index].Model, 
+                    Console.WriteLine(string.Join(Environment.NewLine, "Type: " + catalogue[index].Type, "Model: " + catalogue[index].Model,
                         "Color: " + catalogue[index].Color, "Horsepower: " + catalogue[index].Horsepower));
                 }
             }
 
-            if(catalogue.Count > 0)
+            if (catalogue.Count > 0)
             {
                 double carHpSum = 0;
                 double carCount = 0;

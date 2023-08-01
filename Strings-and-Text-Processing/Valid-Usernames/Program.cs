@@ -13,7 +13,7 @@ namespace ValidUsernames
 
             foreach (var user in usernames)
             {
-                if(user.Length >= 3 && user.Length <= 16)
+                if (user.Length >= 3 && user.Length <= 16)
                 {
                     bool checker = true;
 
@@ -24,6 +24,7 @@ namespace ValidUsernames
                             checker = false;
                         }
                     }
+
                     if (checker)
                     {
                         Console.WriteLine(user);

@@ -19,7 +19,7 @@ namespace StringExplosion
 
                     for (int j = power; j > 0; j--)
                     {
-                        if(i < str.Count - 1)
+                        if (i < str.Count - 1)
                         {
                             if (str[i + 1] != (char)'>')
                             {

@@ -23,7 +23,7 @@ namespace MaxSequenceOfEqualElements
                     counter = 1;
                 }
 
-                if(counter > biggestCounter)
+                if (counter > biggestCounter)
                 {
                     biggestCounter = counter;
                     number = nums[i];
